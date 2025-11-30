@@ -1,0 +1,8 @@
+A. The code does not work
+Check the library used. If the VarSpeedServo library is used, in the Code folder, there is a readme with the steps to load the library
+
+B. Although the motors were adjusted before assembly to 90 degrees, once assembled, they seem to go in the wrong direction
+It is about the way the shoulder is attached. The shoulder where the clamp and the servo are attached to the body will be removed, and the shoulder components (the one with the incision for the servo arm and the one for rotating) can be reversed. Afterwards, check the servo motor again if it rotates in the correct direction. Most of the time, this operation solves the problem
+
+C. The code does not load on my Arduino, although I have the library installed in the IDE
+Most of the time, it is from the processor that the application has. In the Tools -> Processor -> ATmega 328P (Old Bootloader) tab, it will solve the problem. Chinese motherboards have, in 80% of cases, this processor
